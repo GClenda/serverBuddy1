@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "DoneWithIt",
-    "slug": "DoneWithIt",
+    "name": "ServerBuddy",
+    "slug": "ServerBuddy",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,7 +24,18 @@
       "favicon": "./assets/favicon.png",
       "bundler": "metro"
     },
-    "sdkVersion": "51.0.0"
+    "sdkVersion": "51.0.0",
+    "extra": {
+      "eas": {
+        "projectId": "766b78ae-5714-43fa-82c0-44dd18534fb5"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/766b78ae-5714-43fa-82c0-44dd18534fb5"
+    }
   },
-  "name": "donewithit"
+  "name": "serverbuddy"
 }
